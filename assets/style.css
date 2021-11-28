@@ -131,13 +131,13 @@ hr.solid {
 }
 
 /* this starts the section with the work image links */
-.surf-report {
+.guess-that-release-date {
   position: relative;
   text-align: center;
   color: white;
 }
 
-.surf-report img {
+.guess-that-release-date img {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -152,7 +152,7 @@ hr.solid {
   border: solid white 5px;
 }
 
-.surf-report img:hover {
+.guess-that-release-date img:hover {
   opacity: 0.99;
 }
 
@@ -220,7 +220,7 @@ hr.solid {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 965px) {
-  .surf-report img {
+  .guess-that-release-date img {
     float: right;
     margin-left: auto;
     margin-right: auto;
