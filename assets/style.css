@@ -156,13 +156,13 @@ hr.solid {
   opacity: 0.99;
 }
 
-.led-wall {
+.spottr {
   position: relative;
   text-align: center;
   color: white;
 }
 
-.led-wall img {
+.spottr img {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -176,17 +176,17 @@ hr.solid {
   border: solid white 5px;
 }
 
-.led-wall img:hover {
+.spottr img:hover {
   opacity: 0.99;
 }
 
-.calculator {
+.poke-buff {
   position: relative;
   text-align: center;
   color: white;
 }
 
-.calculator img {
+.poke-buff img {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -201,7 +201,7 @@ hr.solid {
   border: solid white 5px;
 }
 
-.calculator img:hover {
+.poke-buff img:hover {
   opacity: 0.99;
 }
 
@@ -224,15 +224,16 @@ hr.solid {
     float: right;
     margin-left: auto;
     margin-right: auto;
+    max-width: 80%;
   }
 
-  .led-wall img {
+  .spottr img {
     float: right;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .calculator img {
+  .poke-buff img {
     float: right;
     margin-left: auto;
     margin-right: auto;
